@@ -1,0 +1,23 @@
+// Kullanıcıdan iki sayı alalım
+let a = 10;
+let b = 5;
+let islem = "+"; // İşlemi değiştirebilirsiniz: +, -, *, /
+
+// If-else ile matematiksel işlem
+if (islem === "+") {
+    console.log(`Sonuç: ${a + b}`);
+} else if (islem === "-") {
+    console.log(`Sonuç: ${a - b}`);
+} else if (islem === "*") {
+    console.log(`Sonuç: ${a * b}`);
+} else if (islem === "/") {
+    console.log(`Sonuç: ${a / b}`);
+} else {
+    console.log("Geçersiz işlem!");
+}
+
+// For döngüsü ile 1'den 10'a kadar olan sayıları yazdırma
+console.log("1'den 10'a kadar sayılar:");
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
